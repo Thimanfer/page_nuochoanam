@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nước Hoa Dior Sauvage EDP - Sale D4</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-left">
+                    <img src="images/3.jpg" alt="Dior Sauvage" class="hero-product">
+                    <div class="flash-sale">
+                        <span>FLASH SALE</span>
+                        <strong>75%<br>OFF</strong>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <h1 class="brand">Sale D4</h1>
+                    <p class="subtitle">Nước Hoa DIOR Sauvage EDP</p>
+                    <h2 class="slogan">MANG ĐẾN SỰ TỰ TIN, MẠNH MẼ CHO PHÁI MẠNH</h2>
+                    <div class="price-box">
+                        <span class="price-label">GIẢM GIÁ KỊCH SÀN</span>
+                        <span class="price">1.275.000đ</span>
+                    </div>
+                    <button class="btn-buy" onclick="scrollToOrder()">MUA NGAY</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="features">
+        <div class="container features-list">
+            <div class="feature-item">
+                <i class="icon"></i>
+                <span>Ship COD toàn quốc</span>
+            </div>
+            <div class="feature-item">
+                <i class="icon"></i>
+                <span>15 ngày đổi trả miễn phí</span>
+            </div>
+            <div class="feature-item">
+                <i class="icon"></i>
+                <span>Miễn phí vận chuyển</span>
+            </div>
+            <div class="feature-item">
+                <i class="icon"></i>
+                <span>Cam kết chính hãng</span>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container about-content">
+            <div class="about-left">
+                <h3>DIOR SAUVAGE<br><span>EAU DE PARFUM</span></h3>
+                <p>Dior Sauvage mang đến sự nam tính, cá tính, mạnh mẽ, tự tin cho phái mạnh. Mùi hương đặc trưng của cam bergamot, tiêu và hổ phách. Nhóm hương ấm áp, lịch lãm, thu hút mọi ánh nhìn.</p>
+                <button class="btn-buy" onclick="scrollToOrder()">MUA NGAY</button>
+            </div>
+            <div class="about-right">
+                <img src="images/6.jpg" alt="Dior Sauvage Eau de Parfum">
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+        <div class="container explore-content">
+            <div class="explore-left">
+                <img src="images/3.jpg" alt="Khám phá mùi hương">
+            </div>
+            <div class="explore-right">
+                <h3>KHÁM PHÁ MÙI HƯƠNG DÀNH CHO BẠN</h3>
+                <p>Dior Sauvage mang đến sự nam tính, cá tính, mạnh mẽ, tự tin cho phái mạnh, hoàn hảo thu hút mọi người đàn ông có phong cách sống phóng khoáng, hiện đại.</p>
+                <button class="btn-video">VIDEO SẢN PHẨM</button>
+            </div>
+        </div>
+    </section>
+    <section class="fragrance">
+        <div class="container fragrance-content">
+            <h3>NHÓM HƯƠNG CƠ BẢN CỦA<br><span>DIOR SAUVAGE EAU DE PARFUM</span></h3>
+            <div class="fragrance-box">
+                <div class="fragrance-img">
+                    <img src="images/7.jpg" alt="Nhóm hương">
+                </div>
+                <div class="fragrance-notes">
+                    <div class="note">
+                        <strong>HƯƠNG ĐẦU</strong>
+                        <p>Cam bergamot, hạt tiêu</p>
+                    </div>
+                    <div class="note">
+                        <strong>HƯƠNG GIỮA</strong>
+                        <p>Hoa phong lữ, oải hương, tiêu hồng, tiêu tứ xuyên, cỏ vetiver</p>
+                    </div>
+                    <div class="note">
+                        <strong>HƯƠNG CUỐI</strong>
+                        <p>Ambroxan, hoa labdanum, hương gỗ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product-info">
+        <div class="container info-content">
+            <h3>THÔNG TIN SẢN PHẨM</h3>
+            <div class="info-table">
+                <div><strong>Dung tích:</strong> 100ml</div>
+                <div><strong>Giới tính:</strong> Nam</div>
+                <div><strong>Nồng độ:</strong> Eau de Toilette (EDT)</div>
+                <div><strong>Thời gian giữ mùi:</strong> 8-12 giờ</div>
+                <div><strong>Thương hiệu:</strong> Dior</div>
+                <div><strong>Xuất xứ:</strong> France</div>
+            </div>
+            <div class="info-img">
+                <img src="images/3.jpg" alt="Dior Sauvage">
+                <div class="flash-sale small">75% OFF</div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="container">
+            <h3>ĐÁNH GIÁ SẢN PHẨM</h3>
+            <div class="review-list" id="review-list">
+                <!-- Reviews will be loaded here by JS -->
+            </div>
+        </div>
+    </section>
+    <section class="order" id="order">
+        <div class="container order-content">
+            <div class="order-left">
+                <img src="images/5.jpg" alt="Đặt hàng ngay">
+                <!-- <div class="flash-sale">75% OFF</div> -->
+            </div>
+            <div class="order-right">
+                <h3>ĐẶT HÀNG NGAY</h3>
+                <div class="countdown" id="countdown">
+                    <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>
+                </div>
+                <form id="order-form">
+                    <input type="text" placeholder="Họ và tên" required>
+                    <input type="tel" placeholder="Số điện thoại" required>
+                    <input type="text" placeholder="Địa chỉ" required>
+                    <button type="submit" class="btn-buy">ĐẶT MUA NGAY</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-left">
+                <h2>Sale D4</h2>
+                <p>Địa chỉ: 289 Cầu Giấy, Hà Nội</p>
+                <p>Điện thoại: 0988.888.888</p>
+                <p>Email: cskh@sale D4.com</p>
+                <div class="payment">
+                    <img src="images/1.jpg" alt="Visa">
+                    <img src="images/2.jpg" alt="Mastercard">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
